@@ -1,6 +1,9 @@
-
+import {Typography} from '@mui/material'
 export default function HomePage(){
     return(
-        <h1>my portfolio website</h1>
+        <>
+        <Typography color='red'>my portfolio website</Typography>
+        <p>Hello</p>
+        </>
     )
 }
